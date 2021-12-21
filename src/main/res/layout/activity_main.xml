@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="218dp"
+            android:layout_height="50dp"
+            android:background="@color/Green"
+            android:fontFamily="sans-serif"
+            android:text="SNAKE ERYC"
+            android:textAlignment="center"
+            android:textColor="@color/red"
+            android:textSize="90px"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.512"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.054"
+            tools:ignore="TextContrastCheck" />
+
+        <Button
+            android:id="@+id/button_NovoJogo"
+            android:layout_width="213dp"
+            android:layout_height="70dp"
+            android:layout_marginBottom="264dp"
+            android:backgroundTint="@color/Green"
+            android:text="NOVO JOGO"
+            android:textColor="@color/red"
+            android:textSize="50px"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/button_Continuar"
+            android:layout_width="215dp"
+            android:layout_height="82dp"
+            android:layout_marginBottom="164dp"
+            android:backgroundTint="@color/Green"
+            android:text="CONTINUAR"
+            android:textColor="@color/red"
+            android:textSize="50px"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.505"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/button_Configuracoes"
+            android:layout_width="213dp"
+            android:layout_height="84dp"
+            android:layout_marginBottom="68dp"
+            android:backgroundTint="@color/Green"
+            android:text="CONFIGURAÇÕES"
+            android:textColor="@color/red"
+            android:textSize="50px"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="362dp"
+            android:layout_height="269dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.256"
+            app:srcCompat="@drawable/cobra" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
